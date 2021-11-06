@@ -130,10 +130,10 @@ export default class NavbarComp extends Component {
                             <Financial_Links/>
                             </Nav>
                             <Nav>
-                            <Nav.Link href="#deets">
+                            <Nav.Link>
                                 <Logout/>
                             </Nav.Link>
-                            <Nav.Link  href="#memes">
+                            <Nav.Link>
                                 <Welcome/>
                             </Nav.Link>
                             </Nav>
