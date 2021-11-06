@@ -1,0 +1,49 @@
+.app {
+  padding: 15px;
+  background-color: aqua;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(143, 224, 238);
+  color: black;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.Card_box {
+  padding: 15px;
+}
+
+.number_input{
+  padding: 5px;
+  width: 200px;
+}
+
+.number_box{
+  padding: 10px;
+}
+
+.Carousel_box{
+  padding: 70px;
+  background: rgba(0, 0, 0, 0.411);
+  text-align: center;
+  min-height: 80vh;
+}
+
+.Home_Welcome{
+  text-align: center;
+}
+
+.my_carousel{
+  min-height: 50vh;
+}
