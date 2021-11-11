@@ -29,7 +29,6 @@ function Balance() {
     
     function BalanceForm(){
         const ctx = React.useContext(UserContext)
-        const [balance, setBalance] = React.useState('')
 
         function handle_balance(){
             
@@ -44,8 +43,7 @@ function Balance() {
                         return;
                     }
                     
-                    setBalance(user.balance)
-                    setStatus(`Your current balance is $${balance}`)
+                    setStatus(`Your current balance is $${user.balance}`)
                     return;
                 })
         }
